@@ -7,11 +7,12 @@ const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	border: 1px solid grey;
-	border-radius: 8px;
+	border-bottom: 1px dotted grey;
+	//border-radius: 8px;
 	cursor: pointer;
 	background: white;
 	:hover {
+		border-bottom: 2px dotted black;
 		background: lightgray;
 	}
 `;
